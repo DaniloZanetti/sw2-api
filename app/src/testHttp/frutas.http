@@ -1,0 +1,6 @@
+@url = https://8080-danilozanetti-sw2api-89gtpl2qew4.ws-us116.gitpod.io
+###
+GET {{{url}}}/frutas
+
+###
+GET {{url}}/frutas/2
