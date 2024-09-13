@@ -1,0 +1,28 @@
+@url = https://8080-danilozanetti-sw2api-nhipbxgqoo6.ws-us116.gitpod.io
+
+###
+POST {{url}}/pessoas
+Content-Type: application/json
+
+{
+    "nome": "Danilouso",
+    "idade": 182
+}
+
+###
+GET {{url}}/pessoas
+
+###
+GET {{url}}/pessoas/1
+
+###
+PUT {{url}}/pessoa/2
+Content-Type: application/json
+
+{
+    "nome": "Registro Modificado",
+    "idade": 52
+}
+
+###
+DELETE {{url}}/pessoas/2
